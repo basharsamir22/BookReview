@@ -2,8 +2,7 @@ import { useState } from 'react';
 import PageContainer from '../components/layout/PageContainer';
 import BookCard from '../components/books/BookCard';
 import { mockBooks } from '../data/mockBooks';
-import { mockBookshelves, bookshelfTypes } from '../data/mockBookshelves';
-
+import { mockBookshelves, bookshelfTypes } from '../data/mockBookShelves';
 const MyBooksPage = () => {
   const [activeShelf, setActiveShelf] = useState('all');
 
